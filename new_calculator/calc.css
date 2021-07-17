@@ -1,0 +1,55 @@
+body{
+    margin:auto;
+}
+*{
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+.main {
+    background-color: rgb(182, 231, 178);
+    height: 680px;
+    overflow: hidden;
+}
+.middle {
+    margin:0 auto;
+    max-width: 400px;
+    height: 400px;
+    text-align: center;
+    background-color: rgba(204, 243, 202, 0.582);
+    overflow: hidden;
+    margin-top: 100px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.form_div {
+    width: 300px;
+    height: 180px;
+    margin: 0 auto;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.form_div .num1 {
+    margin-top: 10px;
+    border-bottom: 1px solid rgb(236, 10, 10);
+    border-radius: 10px;
+}
+.form_div .num2 {
+    margin-top: 10px;
+    border-bottom: 1px solid rgb(240, 6, 6);
+    border-radius: 10px;
+}
+
+.form_div select {
+    margin-top: 10px;
+    border: 1px solid rgb(233, 9, 9);
+    border-radius: 10px;
+}
+.submit_btn {
+    width: 85px;
+    height: 30px;
+    border: 1px solid rgb(245, 10, 10);
+    border-radius: 15px;
+}
+p{
+    margin:30px 0 0 0;
+}
